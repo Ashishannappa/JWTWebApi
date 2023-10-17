@@ -6,9 +6,11 @@ using System.IdentityModel.Tokens.Jwt;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
 
 namespace JWTWebApi.Controllers
 {
+    
     [Route("api/token")]
     [ApiController]
 

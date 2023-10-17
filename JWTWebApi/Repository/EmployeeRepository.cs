@@ -1,6 +1,7 @@
 ﻿using JWTWebApi.Interface;
 using Microsoft.EntityFrameworkCore;
 using JWTWebApi.Models;
+
 namespace JWTWebApi.Repository
 {
     public class EmployeeRepository : IEmployees
